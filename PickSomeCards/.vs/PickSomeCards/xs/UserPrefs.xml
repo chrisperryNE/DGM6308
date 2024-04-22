@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{F62BCF22-7332-4289-BC50-EFEEB34746B4}|Default" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.PickSomeCards PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PickSomeCards/Program.cs">
+    <Files>
+      <File FileName="PickSomeCards/Program.cs" Line="7" Column="6" />
+      <File FileName="PickSomeCards/CardPicker.cs" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

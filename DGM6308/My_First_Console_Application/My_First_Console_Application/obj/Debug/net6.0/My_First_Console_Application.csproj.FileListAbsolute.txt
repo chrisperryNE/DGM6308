@@ -1,0 +1,15 @@
+/Users/chris/Documents/GitHub/DGM6308/My_First_Console_Application/My_First_Console_Application/bin/Debug/net6.0/My_First_Console_Application
+/Users/chris/Documents/GitHub/DGM6308/My_First_Console_Application/My_First_Console_Application/bin/Debug/net6.0/My_First_Console_Application.deps.json
+/Users/chris/Documents/GitHub/DGM6308/My_First_Console_Application/My_First_Console_Application/bin/Debug/net6.0/My_First_Console_Application.runtimeconfig.json
+/Users/chris/Documents/GitHub/DGM6308/My_First_Console_Application/My_First_Console_Application/bin/Debug/net6.0/My_First_Console_Application.dll
+/Users/chris/Documents/GitHub/DGM6308/My_First_Console_Application/My_First_Console_Application/bin/Debug/net6.0/My_First_Console_Application.pdb
+/Users/chris/Documents/GitHub/DGM6308/My_First_Console_Application/My_First_Console_Application/obj/Debug/net6.0/My_First_Console_Application.csproj.AssemblyReference.cache
+/Users/chris/Documents/GitHub/DGM6308/My_First_Console_Application/My_First_Console_Application/obj/Debug/net6.0/My_First_Console_Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chris/Documents/GitHub/DGM6308/My_First_Console_Application/My_First_Console_Application/obj/Debug/net6.0/My_First_Console_Application.AssemblyInfoInputs.cache
+/Users/chris/Documents/GitHub/DGM6308/My_First_Console_Application/My_First_Console_Application/obj/Debug/net6.0/My_First_Console_Application.AssemblyInfo.cs
+/Users/chris/Documents/GitHub/DGM6308/My_First_Console_Application/My_First_Console_Application/obj/Debug/net6.0/My_First_Console_Application.csproj.CoreCompileInputs.cache
+/Users/chris/Documents/GitHub/DGM6308/My_First_Console_Application/My_First_Console_Application/obj/Debug/net6.0/My_First_Console_Application.dll
+/Users/chris/Documents/GitHub/DGM6308/My_First_Console_Application/My_First_Console_Application/obj/Debug/net6.0/refint/My_First_Console_Application.dll
+/Users/chris/Documents/GitHub/DGM6308/My_First_Console_Application/My_First_Console_Application/obj/Debug/net6.0/My_First_Console_Application.pdb
+/Users/chris/Documents/GitHub/DGM6308/My_First_Console_Application/My_First_Console_Application/obj/Debug/net6.0/My_First_Console_Application.genruntimeconfig.cache
+/Users/chris/Documents/GitHub/DGM6308/My_First_Console_Application/My_First_Console_Application/obj/Debug/net6.0/ref/My_First_Console_Application.dll

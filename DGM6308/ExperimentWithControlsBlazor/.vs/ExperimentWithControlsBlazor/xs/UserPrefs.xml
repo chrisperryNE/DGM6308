@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{753B3EEA-FF3A-44DA-89D5-663121FE4531}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ExperimentWithControlsBlazor PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="wwwroot/index.html">
+    <Files>
+      <File FileName="wwwroot/index.html" Line="7" Column="36" />
+      <File FileName="Shared/NavMenu.razor" Line="17" Column="9" />
+      <File FileName="Pages/Index.razor" Line="52" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

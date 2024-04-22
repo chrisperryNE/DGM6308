@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/chris/Documents/GitHub/DGM6308/PickACardBlazor/PickACardBlazor/PickACardBlazor.csproj": {}
+  },
+  "projects": {
+    "/Users/chris/Documents/GitHub/DGM6308/PickACardBlazor/PickACardBlazor/PickACardBlazor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/chris/Documents/GitHub/DGM6308/PickACardBlazor/PickACardBlazor/PickACardBlazor.csproj",
+        "projectName": "PickACardBlazor",
+        "projectPath": "/Users/chris/Documents/GitHub/DGM6308/PickACardBlazor/PickACardBlazor/PickACardBlazor.csproj",
+        "packagesPath": "/Users/chris/.nuget/packages/",
+        "outputPath": "/Users/chris/Documents/GitHub/DGM6308/PickACardBlazor/PickACardBlazor/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/chris/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.29, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.29, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.29, 6.0.29]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.315/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

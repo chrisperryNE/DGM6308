@@ -1,0 +1,15 @@
+/Users/chris/Documents/GitHub/DGM6308/PickSomeCards/PickSomeCards/obj/Debug/net6.0/PickSomeCards.csproj.AssemblyReference.cache
+/Users/chris/Documents/GitHub/DGM6308/PickSomeCards/PickSomeCards/obj/Debug/net6.0/PickSomeCards.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chris/Documents/GitHub/DGM6308/PickSomeCards/PickSomeCards/obj/Debug/net6.0/PickSomeCards.AssemblyInfoInputs.cache
+/Users/chris/Documents/GitHub/DGM6308/PickSomeCards/PickSomeCards/obj/Debug/net6.0/PickSomeCards.AssemblyInfo.cs
+/Users/chris/Documents/GitHub/DGM6308/PickSomeCards/PickSomeCards/obj/Debug/net6.0/PickSomeCards.csproj.CoreCompileInputs.cache
+/Users/chris/Documents/GitHub/DGM6308/PickSomeCards/PickSomeCards/bin/Debug/net6.0/PickSomeCards
+/Users/chris/Documents/GitHub/DGM6308/PickSomeCards/PickSomeCards/bin/Debug/net6.0/PickSomeCards.deps.json
+/Users/chris/Documents/GitHub/DGM6308/PickSomeCards/PickSomeCards/bin/Debug/net6.0/PickSomeCards.runtimeconfig.json
+/Users/chris/Documents/GitHub/DGM6308/PickSomeCards/PickSomeCards/bin/Debug/net6.0/PickSomeCards.dll
+/Users/chris/Documents/GitHub/DGM6308/PickSomeCards/PickSomeCards/bin/Debug/net6.0/PickSomeCards.pdb
+/Users/chris/Documents/GitHub/DGM6308/PickSomeCards/PickSomeCards/obj/Debug/net6.0/PickSomeCards.dll
+/Users/chris/Documents/GitHub/DGM6308/PickSomeCards/PickSomeCards/obj/Debug/net6.0/refint/PickSomeCards.dll
+/Users/chris/Documents/GitHub/DGM6308/PickSomeCards/PickSomeCards/obj/Debug/net6.0/PickSomeCards.pdb
+/Users/chris/Documents/GitHub/DGM6308/PickSomeCards/PickSomeCards/obj/Debug/net6.0/PickSomeCards.genruntimeconfig.cache
+/Users/chris/Documents/GitHub/DGM6308/PickSomeCards/PickSomeCards/obj/Debug/net6.0/ref/PickSomeCards.dll
