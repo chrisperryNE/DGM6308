@@ -1,20 +1,34 @@
 ﻿<Properties StartupConfiguration="{EF9A7056-B921-437E-8C0C-A809AED9E559}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Index.razor">
-    <Files>
-      <File FileName="App.razor" />
-      <File FileName="Program.cs" />
-      <File FileName="Pages/Index.razor" Line="87" Column="36" />
-      <File FileName="wwwroot/index.html" />
-      <File FileName="Shared/NavMenu.razor" />
-      <File FileName="_Imports.razor" />
-      <File FileName="Shared/MainLayout.razor" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Index.razor">
+    <Files>
+      <File FileName="App.razor" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Pages/Index.razor" Line="28" Column="37" />
+      <File FileName="wwwroot/index.html" Line="1" Column="1" />
+      <File FileName="Shared/NavMenu.razor" Line="1" Column="1" />
+      <File FileName="_Imports.razor" Line="1" Column="1" />
+      <File FileName="Shared/MainLayout.razor" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BlazorMatchGame" expanded="True">
+            <Node name="BlazorMatchGame">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Pages">
+                <Node name="Index.razor" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.BlazorMatchGame PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

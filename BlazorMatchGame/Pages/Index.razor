@@ -18,28 +18,57 @@
 <div class="container">
     <div class="row">
         @for (var animalNumber = 0; animalNumber < shuffledAnimals.Count; animalNumber++)
-            {
-                var animal = shuffledAnimals[animalNumber];
-                var uniqueDescription = $"Button #{animalNumber}";   
-                <div class="col-3">
-                    <button @onclick="@(() => ButtonClick(animal, uniqueDescription))"
-                            type="button" class="btn btn-outline-dark">
-                        <h1>@animal</h1>
-                    </button>
-                </div>
-            }
+        {
+            var animal = shuffledAnimals[animalNumber];
+            var uniqueDescription = $"{animalNumber}";
+            int index = 0;
+
+
+            <div class="col-3">
+                <button @onclick="@(() => { ButtonClick(animal, uniqueDescription); ButtonClicked(index);})"
+                        type="button" class="btn btn-outline-dark" style="background-color:@Setbackground">
+                    <h1> <span hidden="@(!clickedButtons.Contains(index))">@animal</span></h1>
+                </button>
+            </div>
+           
+        }
     </div>
     <div class="row">
         <h2>Matches found: @matchesFound</h2>
     </div>
     <div class="row">
-        <h2>Time: @timeDisplay</h2>
+
+        <h2>Guesses per animal: @Guesses</h2>
     </div>
-</div>
+    <div class="row">
+
+        <div class="col-3">
+            <button button name="SetGuessButton1" type="button" class="btn btn-outline-dark" @onclick="SetGuess1"
+                    style="background-color:red"><h1>1</h1></button>
+        </div>
+        <div class="col-3">
+            <button type="button" class="btn btn-outline-dark" @onclick="SetGuess2" style="background-color:orange"><h1>2</h1></button>
+        </div>
+        <div class="col-3">
+            <button type="button" class="btn btn-outline-dark" @onclick="SetGuess3" style="background-color:yellow"><h1>3</h1></button>
+        </div>
+        <div class="col-3">
+            <button type="button" class="btn btn-outline-dark" @onclick="SetGuess4" style="background-color:green"><h1>4</h1></button>
+        </div>
+            </div>
+        </div>
 
 
 @code
 {
+
+    public int Guesses { get; set; } = 4;
+    public string Setbackground { get; set; } = "green";
+    List<int> clickedButtons = new List<int>();
+    //public int clickedCards = 0;
+    //int[] buttonArray = new int[16];
+
+
     // creates a new list called animalEmoji
     List<string> animalEmoji = new List<string>()
     {
@@ -64,17 +93,15 @@
         "", "",
         "", "",
     };
+
     int matchesFound = 0;
-    // would remove the timer and integer below.  
-    Timer timer;
-    int tenthsOfSecondsElapsed = 0;
-    string timeDisplay;
+
 
     protected override void OnInitialized()
     {
-        timer = new Timer(100);
-        timer.Elapsed += Timer_Tick;
+
         SetUpGame();
+
     }
 
     private void SetUpGame()
@@ -84,25 +111,26 @@
         .OrderBy(item => random.Next())
         .ToList();
         matchesFound = 0;
-        tenthsOfSecondsElapsed = 0;
     }
 
     string lastAnimalFound = string.Empty;
     string lastDescription = string.Empty;
 
+
     private void ButtonClick(string animal, string animalDescription)
     {
-        ///for each(string a in animalDescription)
+        //clickedCards++;
 
-    
 
         if (lastAnimalFound == string.Empty)
         {
             // First selection of the pair. Remember it.
+
             lastAnimalFound = animal;
             lastDescription = animalDescription;
+            Guesses--;
 
-            timer.Start();
+
         }
         else if ((lastAnimalFound == animal) && (animalDescription != lastDescription))
         {
@@ -113,11 +141,12 @@
             shuffledAnimals = shuffledAnimals
                 .Select(a => a.Replace(animal, string.Empty))
                 .ToList();
+
             matchesFound++;
+
             if (matchesFound == 8)
             {
-                timer.Stop();
-                timeDisplay += " - Play Again?";
+                // add way to ask player to play again.
 
                 SetUpGame();
             }
@@ -130,15 +159,48 @@
         }
     }
 
-    private void Timer_Tick(Object source, ElapsedEventArgs e)
+    public void SetGuess1()
     {
-        InvokeAsync(() =>
-        {
-            tenthsOfSecondsElapsed++;
-            timeDisplay = (tenthsOfSecondsElapsed / 10F)
-                .ToString("0.0s");
-            StateHasChanged();
-        });
+        Guesses = 1;
+        Setbackground = "red";
+
     }
+
+    public void SetGuess2()
+    {
+        Guesses = 2;
+        Setbackground = "orange";
+
+    }
+
+    public void SetGuess3()
+    {
+        Guesses = 3;
+        Setbackground = "yellow";
+
+    }
+
+    public void SetGuess4()
+    {
+        Guesses = 4;
+        Setbackground = "green";
+
+    }
+
+    public void ButtonClicked(int index)
+{
+        clickedButtons.Add(index);
+        Task.Delay(1000);
+        
+            if (clickedButtons.Count == 2)
+            {
+                clickedButtons.Clear();
+                StateHasChanged();
+            }
+        }
 }
-   
+
+
+
+
+}
