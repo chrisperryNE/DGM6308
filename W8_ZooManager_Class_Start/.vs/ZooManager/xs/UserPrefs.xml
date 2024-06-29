@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{DEF5AF9A-50F8-4FED-BC52-14C220FCA982}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ZooManager PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ZooManager/Game.cs">
+    <Files>
+      <File FileName="ZooManager/Pages/Index.razor" />
+      <File FileName="ZooManager/Zone.cs" />
+      <File FileName="ZooManager/Cat.cs" />
+      <File FileName="ZooManager/Mouse.cs" />
+      <File FileName="ZooManager/Animal.cs" />
+      <File FileName="ZooManager/Game.cs" Line="93" Column="31" />
+      <File FileName="ZooManager/Point.cs" />
+      <File FileName="ZooManager/Program.cs" />
+      <File FileName="ZooManager/App.razor" />
+      <File FileName="ZooManager/Direction.cs" />
+      <File FileName="ZooManager/_Imports.razor" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ZooManager">
+            <Node name="ZooManager" expanded="True">
+              <Node name="Pages" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
