@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{3C7F1EF5-884F-4F65-ACAA-CD02CFE6B7D0}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Territory/Program.cs">
+    <Files>
+      <File FileName="Territory/Program.cs" Line="8" Column="1" />
+      <File FileName="Territory/Game.cs" Line="167" Column="10" />
+      <File FileName="Territory/Deck.cs" Line="80" Column="22" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Territory Classes" expanded="True">
+            <Node name="Territory">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Territory PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

@@ -88,7 +88,7 @@ namespace TicTacToe
                     }
                     catch
                     {
-                        Console.WriteLine("Please enter a number between 1 ann 9");
+                        Console.WriteLine("Please enter a number between 1 and 9");
                     }
 
                     if ((input == 1) && (playarea[0, 0] == '1'))

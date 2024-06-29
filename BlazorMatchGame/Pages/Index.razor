@@ -17,6 +17,10 @@
 
 <div class="container">
     <div class="row">
+
+        var animal 
+
+
         @for (var animalNumber = 0; animalNumber < shuffledAnimals.Count; animalNumber++)
         {
             var animal = shuffledAnimals[animalNumber];
@@ -30,6 +34,10 @@
                     <h1> <span hidden="@(!clickedButtons.Contains(index))">@animal</span></h1>
                 </button>
             </div>
+
+
+
+
            
         }
         
@@ -62,7 +70,7 @@
 
 @code
 {
-
+   
     public int Guesses { get; set; } = 4;
     public string Setbackground { get; set; } = "green";
     List<int> clickedButtons = new List<int>();

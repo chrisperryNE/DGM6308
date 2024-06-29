@@ -1,15 +1,26 @@
-﻿<Properties StartupConfiguration="{F62BCF22-7332-4289-BC50-EFEEB34746B4}|Default" GitUserInfo="UsingGIT">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{F62BCF22-7332-4289-BC50-EFEEB34746B4}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.PickSomeCards PreferredExecutionTarget="MonoDevelop.Default" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PickSomeCards/Program.cs">
-    <Files>
-      <File FileName="PickSomeCards/Program.cs" Line="7" Column="6" />
-      <File FileName="PickSomeCards/CardPicker.cs" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="PickSomeCards/Program.cs">
+    <Files>
+      <File FileName="PickSomeCards/Program.cs" Line="18" Column="1" />
+      <File FileName="PickSomeCards/CardPicker.cs" Line="44" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PickSomeCards" expanded="True">
+            <Node name="PickSomeCards" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
 </Properties>

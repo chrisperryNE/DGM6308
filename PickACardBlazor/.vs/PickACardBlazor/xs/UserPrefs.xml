@@ -1,21 +1,19 @@
 ﻿<Properties StartupConfiguration="{6A1D663F-1A35-4889-885B-60D6F4BC686C}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.PickACardBlazor PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="PickACardBlazor/Pages/Index.razor">
     <Files>
-      <File FileName="PickACardBlazor/CardPicker.cs" />
-      <File FileName="PickACardBlazor/App.razor" />
-      <File FileName="PickACardBlazor/_Imports.razor" />
-      <File FileName="PickACardBlazor/Program.cs" />
-      <File FileName="PickACardBlazor/Pages/Index.razor" Line="40" Column="2" />
+      <File FileName="PickACardBlazor/CardPicker.cs" Line="1" Column="1" />
+      <File FileName="PickACardBlazor/App.razor" Line="1" Column="1" />
+      <File FileName="PickACardBlazor/_Imports.razor" Line="1" Column="1" />
+      <File FileName="PickACardBlazor/Program.cs" Line="1" Column="1" />
+      <File FileName="PickACardBlazor/Pages/Index.razor" Line="23" Column="33" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PickACardBlazor" expanded="True">
-            <Node name="PickACardBlazor">
+            <Node name="PickACardBlazor" expanded="True">
               <Node name="Pages" expanded="True">
                 <Node name="Index.razor" selected="True" />
               </Node>
@@ -25,7 +23,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
 </Properties>
